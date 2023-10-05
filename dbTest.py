@@ -1,7 +1,7 @@
 import pandas as pd
 import streamlit as st
 import plotly.express as px
-df = pd.read_csv(r'D:\Capstone\P2_phonepe\agg_trans.csv')
+df = pd.read_csv('agg_trans.csv')
 s =  {'andaman-&-nicobar-islands' : 'Andaman & Nicobar',
       'andhra-pradesh' :'Andhra Pradesh',
       'arunachal-pradesh' : 'Arunachal Pradesh',
